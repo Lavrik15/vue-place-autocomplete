@@ -1,9 +1,9 @@
 {
-  "name": "vue-place-autocomplete",
-  "version": "0.5.3",
+  "name": "horecane-vue-place-autocomplete",
+  "version": "0.0.1",
   "module": "./src/index.js",
   "main": "./dist/VuePlaceAutocomplete.umd.min.js",
-  "repository": "https://github.com/actengage/vue-place-autocomplete",
+  "repository": "https://github.com/Lavrik15/vue-place-autocomplete",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib --name VuePlaceAutocomplete ./src/index.js",
@@ -16,7 +16,7 @@
     "release": "npm publish; git add . -A; git commit; git push --tags"
   },
   "dependencies": {
-    "vue": "^2.6.11",
+    "vue": "2.6.11",
     "vue-interface": "^0.4.52"
   },
   "devDependencies": {

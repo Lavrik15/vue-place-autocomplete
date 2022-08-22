@@ -1,6 +1,6 @@
 <template>
     <div class="autocomplete-field" @keydown="onKeydown" @keyup="onKeyup">
-        <input-field
+        <input
             v-model="query"
             v-bind-events
             v-bind="$attrs"
@@ -13,7 +13,7 @@
             @focus="onFocus"
             @input="$emit('input', query)">
             <activity-indicator v-if="showActivityIndicator" size="xs" type="spinner"/>
-        </input-field>
+        </input>
         <place-autocomplete-list v-if="predictions && showPredictions" :items="predictions" @item:click="onItemClick" @item:blur="onItemBlur"/>
     </div>
 </template>
@@ -23,8 +23,6 @@ import geocode from './Helpers/Geocode';
 import script from 'vue-interface/src/Helpers/Script';
 import PlaceAutocompleteList from './PlaceAutocompleteList';
 import FormControl from 'vue-interface/src/Mixins/FormControl';
-import FormGroup from 'vue-interface/src/Components/FormGroup';
-import InputField from 'vue-interface/src/Components/InputField';
 import ActivityIndicator from 'vue-interface/src/Components/ActivityIndicator';
 
 const KEYCODE = {
@@ -56,8 +54,6 @@ export default {
     ],
 
     components: {
-        FormGroup,
-        InputField,
         ActivityIndicator,
         PlaceAutocompleteList
     },
