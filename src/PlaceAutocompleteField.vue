@@ -9,6 +9,7 @@
             :value="value"
             :custom="custom"
             autocomplete="no"
+            :input-class="inputClass"
             @blur="onBlur"
             @focus="onFocus"
             @input="$emit('input', query)">
@@ -110,6 +111,11 @@ export default {
         types: {
             type: [Boolean, Array],
             default: false
+        },
+
+        inputClass: {
+          type: String,
+          default: "",
         }
 
     },
