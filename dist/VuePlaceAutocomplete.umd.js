@@ -1090,12 +1090,12 @@ function update(binding, vnode, value) {
   }
 
 });
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"fb266a02-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/PlaceAutocompleteField.vue?vue&type=template&id=78c340ea&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"autocomplete-field",on:{"keydown":_vm.onKeydown,"keyup":_vm.onKeyup}},[(((_vm.$attrs).type)==='checkbox')?_c('input',_vm._b({directives:[{name:"model",rawName:"v-model",value:(_vm.query),expression:"query"},{name:"bind-events",rawName:"v-bind-events"}],attrs:{"label":_vm.label,"errors":_vm.errors,"custom":_vm.custom,"autocomplete":"no","type":"checkbox"},domProps:{"value":_vm.value,"checked":Array.isArray(_vm.query)?_vm._i(_vm.query,_vm.value)>-1:(_vm.query)},on:{"blur":_vm.onBlur,"focus":_vm.onFocus,"input":function($event){return _vm.$emit('input', _vm.query)},"change":function($event){var $$a=_vm.query,$$el=$event.target,$$c=$$el.checked?(true):(false);if(Array.isArray($$a)){var $$v=_vm.value,$$i=_vm._i($$a,$$v);if($$el.checked){$$i<0&&(_vm.query=$$a.concat([$$v]))}else{$$i>-1&&(_vm.query=$$a.slice(0,$$i).concat($$a.slice($$i+1)))}}else{_vm.query=$$c}}}},'input',_vm.$attrs,false)):(((_vm.$attrs).type)==='radio')?_c('input',_vm._b({directives:[{name:"model",rawName:"v-model",value:(_vm.query),expression:"query"},{name:"bind-events",rawName:"v-bind-events"}],attrs:{"label":_vm.label,"errors":_vm.errors,"custom":_vm.custom,"autocomplete":"no","type":"radio"},domProps:{"value":_vm.value,"checked":_vm._q(_vm.query,_vm.value)},on:{"blur":_vm.onBlur,"focus":_vm.onFocus,"input":function($event){return _vm.$emit('input', _vm.query)},"change":function($event){_vm.query=_vm.value}}},'input',_vm.$attrs,false)):_c('input',_vm._b({directives:[{name:"model",rawName:"v-model",value:(_vm.query),expression:"query"},{name:"bind-events",rawName:"v-bind-events"}],attrs:{"label":_vm.label,"errors":_vm.errors,"custom":_vm.custom,"autocomplete":"no","type":(_vm.$attrs).type},domProps:{"value":_vm.value,"value":(_vm.query)},on:{"blur":_vm.onBlur,"focus":_vm.onFocus,"input":[function($event){if($event.target.composing){ return; }_vm.query=$event.target.value},function($event){return _vm.$emit('input', _vm.query)}]}},'input',_vm.$attrs,false)),(_vm.showActivityIndicator)?_c('activity-indicator',{attrs:{"size":"xs","type":"spinner"}}):_vm._e(),(_vm.predictions && _vm.showPredictions)?_c('place-autocomplete-list',{attrs:{"items":_vm.predictions},on:{"item:click":_vm.onItemClick,"item:blur":_vm.onItemBlur}}):_vm._e()],1)}
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"fb266a02-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/PlaceAutocompleteField.vue?vue&type=template&id=7c1e2825&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"autocomplete-field",on:{"keydown":_vm.onKeydown,"keyup":_vm.onKeyup}},[(((_vm.$attrs).type)==='checkbox')?_c('input',_vm._b({directives:[{name:"model",rawName:"v-model",value:(_vm.query),expression:"query"},{name:"bind-events",rawName:"v-bind-events"}],attrs:{"label":_vm.label,"errors":_vm.errors,"custom":_vm.custom,"autocomplete":"no","input-class":_vm.inputClass,"type":"checkbox"},domProps:{"value":_vm.value,"checked":Array.isArray(_vm.query)?_vm._i(_vm.query,_vm.value)>-1:(_vm.query)},on:{"blur":_vm.onBlur,"focus":_vm.onFocus,"input":function($event){return _vm.$emit('input', _vm.query)},"change":function($event){var $$a=_vm.query,$$el=$event.target,$$c=$$el.checked?(true):(false);if(Array.isArray($$a)){var $$v=_vm.value,$$i=_vm._i($$a,$$v);if($$el.checked){$$i<0&&(_vm.query=$$a.concat([$$v]))}else{$$i>-1&&(_vm.query=$$a.slice(0,$$i).concat($$a.slice($$i+1)))}}else{_vm.query=$$c}}}},'input',_vm.$attrs,false)):(((_vm.$attrs).type)==='radio')?_c('input',_vm._b({directives:[{name:"model",rawName:"v-model",value:(_vm.query),expression:"query"},{name:"bind-events",rawName:"v-bind-events"}],attrs:{"label":_vm.label,"errors":_vm.errors,"custom":_vm.custom,"autocomplete":"no","input-class":_vm.inputClass,"type":"radio"},domProps:{"value":_vm.value,"checked":_vm._q(_vm.query,_vm.value)},on:{"blur":_vm.onBlur,"focus":_vm.onFocus,"input":function($event){return _vm.$emit('input', _vm.query)},"change":function($event){_vm.query=_vm.value}}},'input',_vm.$attrs,false)):_c('input',_vm._b({directives:[{name:"model",rawName:"v-model",value:(_vm.query),expression:"query"},{name:"bind-events",rawName:"v-bind-events"}],attrs:{"label":_vm.label,"errors":_vm.errors,"custom":_vm.custom,"autocomplete":"no","input-class":_vm.inputClass,"type":(_vm.$attrs).type},domProps:{"value":_vm.value,"value":(_vm.query)},on:{"blur":_vm.onBlur,"focus":_vm.onFocus,"input":[function($event){if($event.target.composing){ return; }_vm.query=$event.target.value},function($event){return _vm.$emit('input', _vm.query)}]}},'input',_vm.$attrs,false)),(_vm.showActivityIndicator)?_c('activity-indicator',{attrs:{"size":"xs","type":"spinner"}}):_vm._e(),(_vm.predictions && _vm.showPredictions)?_c('place-autocomplete-list',{attrs:{"items":_vm.predictions},on:{"item:click":_vm.onItemClick,"item:blur":_vm.onItemBlur}}):_vm._e()],1)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/PlaceAutocompleteField.vue?vue&type=template&id=78c340ea&
+// CONCATENATED MODULE: ./src/PlaceAutocompleteField.vue?vue&type=template&id=7c1e2825&
 
 // CONCATENATED MODULE: ./src/Helpers/Geocode.js
 function geocode(options) {
@@ -2154,6 +2154,7 @@ var ActivityIndicator_component = normalizeComponent(
 //
 //
 //
+//
 
 
 
@@ -2221,6 +2222,10 @@ const API_REQUEST_OPTIONS = ['bounds', 'location', 'component-restrictions', 'of
     types: {
       type: [Boolean, Array],
       default: false
+    },
+    inputClass: {
+      type: String,
+      default: ""
     }
   },
   methods: {
