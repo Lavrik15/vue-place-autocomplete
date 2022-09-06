@@ -1,6 +1,6 @@
 {
   "name": "horecane-vue-place-autocomplete",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "module": "./src/index.js",
   "main": "./dist/VuePlaceAutocomplete.umd.min.js",
   "repository": "https://github.com/Lavrik15/vue-place-autocomplete",
